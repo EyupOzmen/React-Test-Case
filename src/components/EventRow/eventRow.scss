@@ -1,0 +1,30 @@
+%row-header {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.index {
+  @extend %row-header;
+  color: green;
+}
+
+.date_league {
+  @extend %row-header;
+  color: red;
+}
+
+.clickable:hover {
+  border: 1.2px solid rgb(0, 162, 255);
+  cursor: pointer;
+  border-collapse: collapse;
+}
+
+.info {
+  padding-left: 3 !important;
+  text-align: left;
+  color: black;
+}
+
+.selected {
+  background-color: yellow;
+}
